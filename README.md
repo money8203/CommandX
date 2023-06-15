@@ -16,7 +16,7 @@ CommandX is a simple command-line interface program implemented in Python. It al
 
 1. Clone the repository.
 2. Open a terminal and navigate to the project directory.
-3. Run the command `python command_prompt.py`.
+3. Run the command `python terminal.py`.
 4. Enter commands in the prompt and press Enter to execute them.
 
 <!-- ## Dependencies
