@@ -4,19 +4,28 @@ CommandX is a simple command-line interface program implemented in Python. It al
 
 ## Features
 
-- Navigate directories: Use `cd` command to change directories.
-- Open files and applications: Use `open` command to open files, applications, or the current directory.
-- List files and folders: Use `list` command to see the files and folders in the current directory.
+- Navigate directories: Use `cd` / `goto` command to change directories.
+- Open files and applications: Use `open` / `start` / `launch` command to open files, applications, or the current directory.
+- List files and folders: Use `list` / `ls` command to see the files and folders in the current directory.
 - Search the web: Use `search` command to perform a web search.
 - Perform calculations: Use `calculate` command to perform simple calculations.
-- Clear chat history: Use `clear` command to clear the command history.
+- Clear chat history: Use `clear` / `cls` command to clear the command history.
 - View command history: Use `chat history` command to view the command history.
 
-## Usage
+## Setup
 
 1. Clone the repository.
-2. Open a terminal and navigate to the project directory.
-3. Run the command `python terminal.py`.
+```
+https://github.com/your_username/CommandX.git
+```
+2. Navigate to the project directory.
+```
+cd CommandX
+```
+3. Run the command 
+```
+python terminal.py
+```
 4. Enter commands in the prompt and press Enter to execute them.
 
 <!-- ## Dependencies
