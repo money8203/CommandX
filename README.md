@@ -11,6 +11,18 @@ CommandX is a simple command-line interface program implemented in Python. It al
 - **Input Validation :** CommandX includes input validation to handle edge cases and prevent errors. For example, when prompting for a directory name, the tool checks if the directory exists before changing the current directory.
 - **Command History Persistence :** CommandX stores the command history in a file, ensuring that your command history is maintained across the session. You can review and access previous commands for reference.
 
+## Usage
+Once CommandX is up and running, you can interact with it using various commands. Here are some examples:
+- Navigate directories: Use `back` and `cd` / `goto` command to change directories back and forth.
+- Open files and applications: Use `open` / `start` / `launch` command to open files, applications, or the current directory.
+- List files and folders: Use `list` / `ls` command to see the files and folders in the current directory.
+- Search the web: Use `search` command to perform a web search.
+- Perform calculations: Use `calculate` command to perform simple calculations.
+- Clear chat history: Use `clear` / `cls` command to clear the command history.
+- View command history: Use `chat history` command to view the command history.
+
+For a complete list of commands and their descriptions, use the help or ? command.
+
 ## Setup
 
 1. Clone the repository.
