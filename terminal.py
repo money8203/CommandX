@@ -5,12 +5,13 @@ import subprocess
 
 app_paths = {
     "Discord": r"C:\Path\to\discord.link",
+    "spotify": r"C:\Path\to\Spotify.exe",
     "Slack": r"C:\Path\to\slack.link",
     "spotify": r"C:\Path\to\whatsapp.exe",
     "whatsapp": r"C:\Path\to\whatsapp.exe",
     "myfile": r"C:\Path\to\myfile.txt",
     "myfolder": r"C:\Path\to\myfolder",
-    "twitter": "https://www.twitter.com/",
+    "Twitter": "https://www.twitter.com/",
     "youtube": "https://www.youtube.com/",
     "chrome": "https://www.google.com/",
     "code": "https://code.visualstudio.com/",
@@ -20,25 +21,23 @@ app_paths = {
     "github": "https://www.github.com/",
     "netflix": "https://www.netflix.com/",
     "primevideo": "https://www.primevideo.com/",
+    "udemy": "https://www.udemy.com/"
 }
 
 command_help = {
-    "hey": "Greets the user",
-    "hello": "Greets the user",
+    "hey/ hello/ hi": "Greets the user",
     "home": "Navigates to the home directory",
     "how are you": "Inquires about the assistant's well-being",
-    "good": "Acknowledges a positive response",
-    "fine": "Acknowledges a positive response",
-    "open": "Opens a file or application",
-    "cd": "Navigates to a specific directory",
-    "goto": "Navigates to a specific directory",
-    "ls/list": "Lists files and directories in the current directory",
-    "back": "Navigates to the parent directory",
+    "good/ fine/ great": "Acknowledges a positive response",
+    "open/ start/ launch": "Opens a file or application for e.g, open spotify, launch desktop, start netflix",
+    "cd/ goto": "Navigates to a specific directory",
+    "ls/ list": "Lists files and directories in the current directory",
+    "back": "Navigates back to the parent directory",
     "search": "Performs a Google search",
     "where": "Displays the current directory",
     "calculate": "Performs calculations",
-    "clear": "Clears the screen and command history",
-    "cls": "Clears the screen and command history",
+    "done": "Exits the calculation terminal",
+    "clear/ cls": "Clears the screen and command history",
     "chat history": "Displays the chat history",
     "exit": "Exits the program"
 }
